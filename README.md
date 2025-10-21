@@ -1,10 +1,12 @@
-A web application built with Flask that predicts Titanic passenger survival. Users can input passenger details via a simple form, and the app uses a trained Random Forest model to return predictions instantly. Fully deployable as a web app or API.
-
 *COMPANY*: CODTECH IT SOLUTIONS PVT.LTD
 *NAME*: Yasir Siraj Mondal
 *DOMAIN*: Data Science
 *DURATION*: 12 weeks
-*MENTOR*: Neela Santhosh Kumar
+*MENTOR*: Neela Santhosh Kumar 
+
+
+A web application built with Flask that predicts Titanic passenger survival. Users can input passenger details via a simple form, and the app uses a trained Random Forest model to return predictions instantly. Fully deployable as a web app or API.
+
 
 
 Live Demo: https://data-science-project-1-snkz.onrender.com
