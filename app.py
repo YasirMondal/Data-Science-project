@@ -30,6 +30,7 @@ def predict_web():
             df[col] = 0
     prediction = model.predict(df)[0]
     return f"<h2>Predicted Survival: {'Yes' if prediction==1 else 'No'}</h2><a href='/'>Try Again</a>"
-
+import os
 if __name__ == '__main__':
-    app.run(debug=True)
+    port= int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0",port=port)
